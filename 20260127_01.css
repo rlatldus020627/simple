@@ -1,0 +1,426 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.side {
+  background-color: rgb(110, 178, 233);
+  border-radius: 30px;
+  width: 100px;
+  height: 100px;
+  right: 20px;
+  bottom: 20px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.side > i {
+  color: white;
+  font-size: 50pt;
+}
+
+.navbar {
+  background-color: #f6f3f1;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+}
+
+.navleft > img {
+  padding-left: 20px;
+  width: 200px;
+  display: flex;
+}
+
+.navcenter {
+  /* background-color: rgb(214, 214, 214); */
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  margin: 0 20px 0 20px;
+  display: flex;
+  font-weight: 600;
+}
+
+.navright {
+  width: 30%;
+  /* background-color: rgb(172, 172, 172); */
+  height: 80px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  justify-content: space-evenly;
+  /* margin-right: 10px; */
+}
+.image {
+  display: flex;
+}
+
+.navright > select {
+  border: none;
+  background-color: inherit;
+}
+.logo {
+  display: flex;
+}
+.logo > li {
+  list-style-type: none;
+  margin: 0 5px 0 5px;
+}
+
+/* 메인 */
+.mainbox1 {
+  width: 100%;
+  height: 800px;
+  background-color: #f6f3f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.minibar {
+  display: flex;
+  align-items: center;
+}
+.minibar > li {
+  margin: 0 20px 0 20px;
+  font-size: 50pt;
+  list-style-type: none;
+}
+.minibar > li > i > p {
+  font-family: sans-serif;
+  font-weight: 450;
+  margin-top: 10px;
+  font-size: small;
+}
+.minibar > .arrow {
+  margin: 0 20px 0 20px;
+  font-size: xx-large;
+}
+
+.mainbox2 {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 1000px;
+}
+
+.model {
+  /* background-color: rgb(71, 57, 39); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #ffffff; */
+  width: 100%;
+  height: 1000px;
+  flex-direction: column;
+}
+
+.p1 {
+  font-size: 50pt;
+  font-weight: 500;
+}
+
+.p2 {
+  margin: 50px 0 20px 0;
+  font-size: medium;
+  color: rgb(192, 192, 192);
+}
+
+.modelimage {
+  /* background-color: #775959; */
+  width: 80%;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+
+.modelimage1 {
+  background-image: url(https://www.hyundai.com/static/images/lineUp/SEDAN/CN22_EXT.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-color: #181a2e; */
+  width: 797px;
+  height: 354px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: start;
+  margin-right: 25px;
+  /* align-items: center; */
+}
+
+.num1 {
+  font-size: xx-large;
+  font-weight: 600;
+  background-color: #007fa8;
+  color: rgb(255, 255, 255);
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modelimage2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  /* background-color: #44a844; */
+  width: 100%;
+  height: 800px;
+
+  /* align-items: center; */
+}
+
+.modelimage2-1 {
+  /* background-color: #c99696; */
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-bottom: 30px;
+  /* justify-content: space-around; */
+  /* padding-top: px; */
+}
+
+.modelimage2-1-1 {
+  margin: 0px 0 40px 30px;
+  font-size: large;
+}
+.modelimage2-1-1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.modelimage2-1-1 > p {
+  margin: 5px;
+}
+.modelimage2-1-1 > button {
+  font-size: medium;
+  /* width: 50px; */
+  margin: 5px;
+  border-style: none;
+  background-color: inherit;
+}
+.modelimage2-1-1 > button:active {
+  color: #426fa1;
+}
+
+.modelimage2-1-2 {
+  margin: 0px 0 20px 30px;
+  font-size: 30pt;
+  font-weight: 700;
+}
+
+.modelimage2-2 {
+  background-color: #ffffff;
+  width: 80%;
+  height: 30%;
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.modelimage2-2-1 > img {
+  margin: 10px 10px 10px 10px;
+  /* margin-top: 180px; */
+  height: 100%;
+  width: 300px;
+}
+
+.modelimage2-2-1 > p {
+  margin: 0 0 0 30px;
+  font-size: large;
+  font-weight: 600;
+}
+
+.mainbox3 {
+  width: 100%;
+  height: 1200px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainbox3-1 {
+  align-items: center;
+  margin-top: 50px;
+  background-color: #ffffff;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainbox3-2 {
+  align-items: center;
+  margin-top: 80px;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.mainbox3-2-1 {
+  background-image: url(https://www.hyundai.com/static/images/main_hi_ev.jpg);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #f6f3f2;
+  width: 700px;
+  padding: 15px 30px 15px 30px;
+  height: 550px;
+  margin: 0 25px 0 25px;
+}
+
+.mainbox3-2-1-text1 > p {
+  color: white;
+}
+
+.mainbox3-2-1-text2 {
+  width: 100%;
+  height: 200px;
+  margin-top: 270px;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+}
+
+.mainbox3-2-1-text2 > p {
+  margin-top: 10px;
+}
+
+.mainbox3-2-2 {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  padding: 15px 30px 15px 30px;
+  background-image: url(https://www.hyundai.com/contents/repn-car/side-45/ioniq6-n-25lc-45side.png);
+  background-position-y: 80px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #f5f5f5;
+  width: 300px;
+  height: 550px;
+  margin: 0 10px 0 10px;
+}
+
+.mainbox3-2-2 > p {
+  margin-top: 20px;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+.mainbox3-2-1-text3 {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.mainbox3-2-1-text4 {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.mainbox3-2-1-text4 > p {
+  font-weight: 600;
+  color: #002c5f;
+}
+
+.mainbox3-2-2-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 300px;
+}
+
+.mainbox3-2-2-info > p {
+  padding: 0 10px 0 10px;
+}
+
+.infoleft > p {
+  font-weight: 700;
+}
+
+.inforight > p {
+  text-align: right;
+}
+
+.carbtn {
+  display: flex;
+  justify-content: center;
+}
+
+.carbtn > button {
+  padding: 15px 50px 15px 50px;
+  border: none;
+  margin: 20px;
+  background-color: #002c5f;
+  color: white;
+}
+
+/* 하단 */
+.foot {
+  background-color: black;
+  width: 100%;
+  height: 400px;
+}
+/* 
+@media (max-width: 800px) {
+  .model {
+    display: flex;
+    flex-direction: column;
+  }
+  .modelimage {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .modelimage2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .modelimage2-1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .modelimage2-2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .modelimage2-2-1 {
+    display: flex;
+    flex-direction: column;
+  }
+} */
